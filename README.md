@@ -1,8 +1,7 @@
 ## 页面跳转关系管理组件 CCNav
 
 完成任务时直接返回到上一个页面
-!(https://github.com/GuiTom/CCKit/blob/master/doc_images/CCNav_1.png)
-
+![image](https://github.com/GuiTom/CCKit/blob/master/doc_images/CCNav_1.png)
 完成任务时返回到在进入本页面时指定的页面
 
 完成任务时返回到在进入前驱页面指定的页面(全局指定)
