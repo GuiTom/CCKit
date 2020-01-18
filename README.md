@@ -36,3 +36,5 @@ Confirm弹窗
 
 用户隐私协议弹窗
 
+![image](https://github.com/GuiTom/CCKit/blob/master/doc_images/float_window.gif)
+
