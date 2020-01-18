@@ -24,9 +24,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    
 }
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    if(self.backButtonColor){
+        self.navigationController.navigationBar.tintColor=self.backButtonColor;
+    }
+    if(self.titleColor){
+        NSDictionary *dict = [NSDictionary dictionaryWithObject:self.titleColor forKey:NSForegroundColorAttributeName];
+        self.navigationController.navigationBar.titleTextAttributes = dict;
+    }
     [self.navigationController setNavigationBarHidden:self.hideNavigationBarInPage];
 }
 -(void)fall_back{

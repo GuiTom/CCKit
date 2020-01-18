@@ -88,6 +88,7 @@ static NSString *cellId = @"cellID";
     if([header isEqualToString:@"视图跳转逻辑"]){
         if([title isEqualToString:@"完成任务时直接返回到上一个页面"]){
             ViewController1 *vc = [ViewController1 new];
+            
             [self.navigationController pushViewController:vc animated:YES];
         }else  if([title isEqualToString:@"完成任务时返回到在进入本页面时指定的页面"]){
             ViewController2 *vc = [ViewController2 new];

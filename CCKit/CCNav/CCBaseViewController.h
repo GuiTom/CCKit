@@ -18,7 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CCBaseViewController : UIViewController
 -(void)fall_back;
 -(void)completionBack;
-
+@property(nonatomic,strong)UIColor *titleColor;
+@property(nonatomic,strong)UIColor *backButtonColor;
 @property(nonatomic,assign)CCBackType completionBackType;
 @property(nonatomic,strong)NSString* completionBackClassName;
 @property(nonatomic,assign)BOOL hideNavigationBarInPage;

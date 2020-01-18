@@ -25,6 +25,7 @@
 		CAC185D323D1F564001068E5 /* ViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC185D223D1F564001068E5 /* ViewController6.m */; };
 		CAC185D623D1F662001068E5 /* ViewController6_2.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC185D523D1F662001068E5 /* ViewController6_2.m */; };
 		CAC185D923D1F70B001068E5 /* ViewController6_3.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC185D823D1F70B001068E5 /* ViewController6_3.m */; };
+		CAC6026E23D31DF4003A95D0 /* backButtonResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAC6026D23D31DF4003A95D0 /* backButtonResource.bundle */; };
 		CAFCFE9523D2B2C6004AE60C /* SeletionActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCFE7A23D2B2C6004AE60C /* SeletionActionSheet.m */; };
 		CAFCFE9623D2B2C6004AE60C /* ConfirmWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCFE7E23D2B2C6004AE60C /* ConfirmWindow.m */; };
 		CAFCFE9723D2B2C6004AE60C /* UpdateConfirmWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCFE8023D2B2C6004AE60C /* UpdateConfirmWindow.m */; };
@@ -96,6 +97,7 @@
 		CAC185D523D1F662001068E5 /* ViewController6_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController6_2.m; sourceTree = "<group>"; };
 		CAC185D723D1F70B001068E5 /* ViewController6_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController6_3.h; sourceTree = "<group>"; };
 		CAC185D823D1F70B001068E5 /* ViewController6_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController6_3.m; sourceTree = "<group>"; };
+		CAC6026D23D31DF4003A95D0 /* backButtonResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = backButtonResource.bundle; sourceTree = "<group>"; };
 		CAFCFE7A23D2B2C6004AE60C /* SeletionActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeletionActionSheet.m; sourceTree = "<group>"; };
 		CAFCFE7B23D2B2C6004AE60C /* SeletionActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeletionActionSheet.h; sourceTree = "<group>"; };
 		CAFCFE7D23D2B2C6004AE60C /* ConfirmWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmWindow.h; sourceTree = "<group>"; };
@@ -215,8 +217,8 @@
 		CA6E3E7223D02954003C48AA /* CCNav */ = {
 			isa = PBXGroup;
 			children = (
-				CA6E3E7323D02954003C48AA /* CCBaseNavViewController.m */,
 				CA6E3E7523D02954003C48AA /* CCBaseNavViewController.h */,
+				CA6E3E7323D02954003C48AA /* CCBaseNavViewController.m */,
 				CA6E3E7623D02954003C48AA /* CCBaseViewController.h */,
 				CA6E3E7423D02954003C48AA /* CCBaseViewController.m */,
 			);
@@ -226,6 +228,7 @@
 		CAC185AC23D1DF9D001068E5 /* CCNavDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CAC6026D23D31DF4003A95D0 /* backButtonResource.bundle */,
 				CAC185AF23D1DFB4001068E5 /* ViewController1.h */,
 				CAC185B023D1DFB4001068E5 /* ViewController1.m */,
 				CAC185AE23D1DFB4001068E5 /* ViewController2.h */,
@@ -457,6 +460,7 @@
 				CA6E3E1F23CFEA34003C48AA /* LaunchScreen.storyboard in Resources */,
 				CAFCFEA023D2B2C6004AE60C /* shareWindow.bundle in Resources */,
 				CAFCFE9B23D2B2C6004AE60C /* CelebrateWindow.bundle in Resources */,
+				CAC6026E23D31DF4003A95D0 /* backButtonResource.bundle in Resources */,
 				CA6E3E1C23CFEA34003C48AA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

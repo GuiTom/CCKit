@@ -17,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.backButtonColor = [UIColor lightGrayColor];
+    self.titleColor = [UIColor yellowColor];
+    
     // Do any additional setup after loading the view.
     self.title = @"页面1-1";
     self.view.backgroundColor = [UIColor lightGrayColor];
@@ -25,6 +28,8 @@
     self.nextButton.backgroundColor = [UIColor blueColor];
     [self.nextButton setTitle:@"下一页" forState:UIControlStateNormal];
     [self.nextButton addTarget:self action:@selector(toNext:) forControlEvents:UIControlEventTouchUpInside];
+
+
 }
 -(void)toNext:(UIButton*)sender{
     SharedViewController *sharedVC = [SharedViewController new];
