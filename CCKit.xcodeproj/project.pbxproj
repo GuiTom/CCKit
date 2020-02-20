@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA35578323D9902A006C7348 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA35578023D9902A006C7348 /* NSObject+YYModel.m */; };
-		CA35578423D9902A006C7348 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CA35578123D9902A006C7348 /* YYClassInfo.m */; };
 		CA6E3E1123CFEA32003C48AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E3E1023CFEA32003C48AA /* AppDelegate.m */; };
 		CA6E3E1C23CFEA34003C48AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6E3E1B23CFEA34003C48AA /* Assets.xcassets */; };
 		CA6E3E1F23CFEA34003C48AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6E3E1D23CFEA34003C48AA /* LaunchScreen.storyboard */; };
@@ -64,11 +62,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CA35577E23D9902A006C7348 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
-		CA35577F23D9902A006C7348 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
-		CA35578023D9902A006C7348 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
-		CA35578123D9902A006C7348 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
-		CA35578223D9902A006C7348 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
 		CA6E3E0C23CFEA32003C48AA /* CCKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6E3E0F23CFEA32003C48AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA6E3E1023CFEA32003C48AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -161,18 +154,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CA35577D23D9902A006C7348 /* YYModel */ = {
-			isa = PBXGroup;
-			children = (
-				CA35577E23D9902A006C7348 /* YYClassInfo.h */,
-				CA35577F23D9902A006C7348 /* YYModel.h */,
-				CA35578023D9902A006C7348 /* NSObject+YYModel.m */,
-				CA35578123D9902A006C7348 /* YYClassInfo.m */,
-				CA35578223D9902A006C7348 /* NSObject+YYModel.h */,
-			);
-			path = YYModel;
-			sourceTree = "<group>";
-		};
 		CA6E3E0323CFEA32003C48AA = {
 			isa = PBXGroup;
 			children = (
@@ -196,7 +177,6 @@
 		CA6E3E0E23CFEA32003C48AA /* CCKit */ = {
 			isa = PBXGroup;
 			children = (
-				CA35577D23D9902A006C7348 /* YYModel */,
 				CAED831423D5EBEE00DD25B4 /* CCToolKit */,
 				CAFCFE5523D29EAB004AE60C /* CCAlertWindow */,
 				CAC185AC23D1DF9D001068E5 /* CCNavDemo */,
@@ -537,7 +517,6 @@
 				CAFCFE9723D2B2C6004AE60C /* UpdateConfirmWindow.m in Sources */,
 				CAC185D023D1F01C001068E5 /* SharedViewController.m in Sources */,
 				CAC185B423D1DFB4001068E5 /* ViewController1.m in Sources */,
-				CA35578323D9902A006C7348 /* NSObject+YYModel.m in Sources */,
 				CAC185B523D1DFB4001068E5 /* ViewController2.m in Sources */,
 				CAFCFE9D23D2B2C6004AE60C /* UserAgrementWindow.m in Sources */,
 				CAED831A23D5F4C100DD25B4 /* UIColor+HexString.m in Sources */,
@@ -549,7 +528,6 @@
 				CA6E3E7823D02954003C48AA /* CCBaseViewController.m in Sources */,
 				CAFCFE9F23D2B2C6004AE60C /* ShareSelectionWindow.m in Sources */,
 				CAED831723D5ECAE00DD25B4 /* NSSring+Tool.m in Sources */,
-				CA35578423D9902A006C7348 /* YYClassInfo.m in Sources */,
 				CAC185B323D1DFB4001068E5 /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
