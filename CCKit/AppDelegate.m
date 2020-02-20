@@ -28,6 +28,7 @@
     ccBaseNav.backButtonResourceName = @"backButtonResource.bundle/left_back";
     ccBaseNav.titleColor = [UIColor redColor];
     /**第三中方法 直接在ViewController类的viewDidLoad设置leftBarbuttonItem*/
+
     [self.window makeKeyAndVisible];
     return YES;
 }

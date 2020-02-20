@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA35578323D9902A006C7348 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA35578023D9902A006C7348 /* NSObject+YYModel.m */; };
+		CA35578423D9902A006C7348 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CA35578123D9902A006C7348 /* YYClassInfo.m */; };
 		CA6E3E1123CFEA32003C48AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6E3E1023CFEA32003C48AA /* AppDelegate.m */; };
 		CA6E3E1C23CFEA34003C48AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6E3E1B23CFEA34003C48AA /* Assets.xcassets */; };
 		CA6E3E1F23CFEA34003C48AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6E3E1D23CFEA34003C48AA /* LaunchScreen.storyboard */; };
@@ -26,6 +28,8 @@
 		CAC185D623D1F662001068E5 /* ViewController6_2.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC185D523D1F662001068E5 /* ViewController6_2.m */; };
 		CAC185D923D1F70B001068E5 /* ViewController6_3.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC185D823D1F70B001068E5 /* ViewController6_3.m */; };
 		CAC6026E23D31DF4003A95D0 /* backButtonResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAC6026D23D31DF4003A95D0 /* backButtonResource.bundle */; };
+		CAED831723D5ECAE00DD25B4 /* NSSring+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = CAED831623D5ECAE00DD25B4 /* NSSring+Tool.m */; };
+		CAED831A23D5F4C100DD25B4 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = CAED831923D5F4C100DD25B4 /* UIColor+HexString.m */; };
 		CAFCFE9523D2B2C6004AE60C /* SeletionActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCFE7A23D2B2C6004AE60C /* SeletionActionSheet.m */; };
 		CAFCFE9623D2B2C6004AE60C /* ConfirmWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCFE7E23D2B2C6004AE60C /* ConfirmWindow.m */; };
 		CAFCFE9723D2B2C6004AE60C /* UpdateConfirmWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCFE8023D2B2C6004AE60C /* UpdateConfirmWindow.m */; };
@@ -60,6 +64,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA35577E23D9902A006C7348 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		CA35577F23D9902A006C7348 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		CA35578023D9902A006C7348 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		CA35578123D9902A006C7348 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		CA35578223D9902A006C7348 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
 		CA6E3E0C23CFEA32003C48AA /* CCKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6E3E0F23CFEA32003C48AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA6E3E1023CFEA32003C48AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,6 +107,10 @@
 		CAC185D723D1F70B001068E5 /* ViewController6_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController6_3.h; sourceTree = "<group>"; };
 		CAC185D823D1F70B001068E5 /* ViewController6_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController6_3.m; sourceTree = "<group>"; };
 		CAC6026D23D31DF4003A95D0 /* backButtonResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = backButtonResource.bundle; sourceTree = "<group>"; };
+		CAED831523D5ECAE00DD25B4 /* NSString+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
+		CAED831623D5ECAE00DD25B4 /* NSSring+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSring+Tool.m"; sourceTree = "<group>"; };
+		CAED831823D5F4C100DD25B4 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		CAED831923D5F4C100DD25B4 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
 		CAFCFE7A23D2B2C6004AE60C /* SeletionActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeletionActionSheet.m; sourceTree = "<group>"; };
 		CAFCFE7B23D2B2C6004AE60C /* SeletionActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeletionActionSheet.h; sourceTree = "<group>"; };
 		CAFCFE7D23D2B2C6004AE60C /* ConfirmWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmWindow.h; sourceTree = "<group>"; };
@@ -148,6 +161,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA35577D23D9902A006C7348 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA35577E23D9902A006C7348 /* YYClassInfo.h */,
+				CA35577F23D9902A006C7348 /* YYModel.h */,
+				CA35578023D9902A006C7348 /* NSObject+YYModel.m */,
+				CA35578123D9902A006C7348 /* YYClassInfo.m */,
+				CA35578223D9902A006C7348 /* NSObject+YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
 		CA6E3E0323CFEA32003C48AA = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +196,8 @@
 		CA6E3E0E23CFEA32003C48AA /* CCKit */ = {
 			isa = PBXGroup;
 			children = (
+				CA35577D23D9902A006C7348 /* YYModel */,
+				CAED831423D5EBEE00DD25B4 /* CCToolKit */,
 				CAFCFE5523D29EAB004AE60C /* CCAlertWindow */,
 				CAC185AC23D1DF9D001068E5 /* CCNavDemo */,
 				CA6E3E7223D02954003C48AA /* CCNav */,
@@ -247,6 +274,17 @@
 				CAC185CF23D1F01C001068E5 /* SharedViewController.m */,
 			);
 			path = CCNavDemo;
+			sourceTree = "<group>";
+		};
+		CAED831423D5EBEE00DD25B4 /* CCToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				CAED831823D5F4C100DD25B4 /* UIColor+HexString.h */,
+				CAED831923D5F4C100DD25B4 /* UIColor+HexString.m */,
+				CAED831623D5ECAE00DD25B4 /* NSSring+Tool.m */,
+				CAED831523D5ECAE00DD25B4 /* NSString+Tool.h */,
+			);
+			path = CCToolKit;
 			sourceTree = "<group>";
 		};
 		CAFCFE5523D29EAB004AE60C /* CCAlertWindow */ = {
@@ -499,8 +537,10 @@
 				CAFCFE9723D2B2C6004AE60C /* UpdateConfirmWindow.m in Sources */,
 				CAC185D023D1F01C001068E5 /* SharedViewController.m in Sources */,
 				CAC185B423D1DFB4001068E5 /* ViewController1.m in Sources */,
+				CA35578323D9902A006C7348 /* NSObject+YYModel.m in Sources */,
 				CAC185B523D1DFB4001068E5 /* ViewController2.m in Sources */,
 				CAFCFE9D23D2B2C6004AE60C /* UserAgrementWindow.m in Sources */,
+				CAED831A23D5F4C100DD25B4 /* UIColor+HexString.m in Sources */,
 				CAC185D923D1F70B001068E5 /* ViewController6_3.m in Sources */,
 				CA6E3E4723CFEAD1003C48AA /* HomeViewController.m in Sources */,
 				CAC185D623D1F662001068E5 /* ViewController6_2.m in Sources */,
@@ -508,6 +548,8 @@
 				CAFCFEA623D2B4A8004AE60C /* AlertWindow.m in Sources */,
 				CA6E3E7823D02954003C48AA /* CCBaseViewController.m in Sources */,
 				CAFCFE9F23D2B2C6004AE60C /* ShareSelectionWindow.m in Sources */,
+				CAED831723D5ECAE00DD25B4 /* NSSring+Tool.m in Sources */,
+				CA35578423D9902A006C7348 /* YYClassInfo.m in Sources */,
 				CAC185B323D1DFB4001068E5 /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
